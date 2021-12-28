@@ -1,21 +1,12 @@
 .App {
+  background-color: #282c34;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +15,48 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  color: white;
+  flex: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgPopup {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;  
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.Content > label {
+  flex-basis: 200px;
+  text-align: left;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.Content > button {
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 20px;
+  text-align: start;
+  float: left;
+  border: 1px solid #ccc;
+  line-height: 40px;
+  width: 200px;
+  padding-left: 10px;
 }
