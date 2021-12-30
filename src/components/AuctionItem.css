@@ -1,0 +1,8 @@
+.bgPopup {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border: 0.5px solid #ccc;
+    width: 300px;
+    margin: 5px;
+}

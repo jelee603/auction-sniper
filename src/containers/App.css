@@ -19,15 +19,8 @@
   color: white;
   flex: auto;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 10px;
-}
-
-.bgPopup {
-  display: flex;
   flex-direction: column;
-  font-size: 20px;  
+  margin: 10px;
 }
 
 .Content {
@@ -59,4 +52,12 @@ li {
   line-height: 40px;
   width: 200px;
   padding-left: 10px;
+}
+
+
+.ContentBox {
+  display: flex;
+  flex-basis: content;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
